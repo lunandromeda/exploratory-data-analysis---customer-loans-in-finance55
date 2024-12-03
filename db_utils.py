@@ -8,7 +8,6 @@ def load_credentials(file_path):
         credentials = yaml.safe_load(file)
     return credentials
 
-
 # Class to handle the RDS database operations
 class RDSDatabaseConnector:
     def __init__(self, credentials):
